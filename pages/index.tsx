@@ -39,7 +39,10 @@ export default function Home() {
           </div>
         </div>
         <MapInteractionCSS showControls={true} className={"<md:h-screen"}>
-          <img src={`/maps/${chapter}.jpeg`} className={""} />
+          <img
+            src={`/maps/${chapter}.jpeg`}
+            className={"<md:(object-contain h-screen)"}
+          />
         </MapInteractionCSS>
         <div>
           <div className="absolute bottom-2 left-5 bg-gh-500 text-white p-2 rounded text-xs">
