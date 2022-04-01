@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+// @ts-ignore
 import { MapInteractionCSS } from "react-map-interaction";
 import { Button } from "@mantine/core";
 import { ArrowLeftIcon, ArrowRightIcon } from "@radix-ui/react-icons";
